@@ -1,0 +1,12 @@
+.sitewrapper {
+    min-width: 320px;
+    max-width: 600px;
+}
+
+.content p, .content li {
+    font-size: 0.6em;
+}
+
+.content h4, .content h5 {
+    font-size: 0.4em;
+}

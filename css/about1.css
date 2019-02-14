@@ -1,0 +1,287 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    background-color: #F5F5F5; 
+    font-family: 'Roboto';
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.sitewrapper {
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+}
+
+.mastercontainer {
+    overflow: hidden;
+    color: white;
+    font-size: 0.9em;
+    font-weight: 400;
+    font-family: 'Roboto'; 
+    background: linear-gradient(150deg,#7D1919 20%,darkred 60%,#CC6600 94%);
+}
+
+.mastercontainer p {
+    line-height: 1.6em;
+    opacity: 0.8;
+}
+
+.mastercontainer p:first-child(2) {
+    font-size: 1.5em;
+}
+
+.mastercontainer a {
+    text-decoration: none;
+    color: white;
+    transition: 0.25s;
+}
+
+.mastercontainer a:hover {
+    color: #3ecf8e;
+}
+
+.headings {
+    text-align: center;
+    color: black;
+    background-color: #F5F5F5;
+    width: 100%;
+    margin: 0 auto;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.headings h1 {
+    height: 40%;
+    width: 100%;
+    padding-top: 40px;
+    font-weight: 300;
+    font-size: 1.7em;
+}
+
+.headings h2 {
+    height: 60%;
+    font-size: 2.4em;
+    font-family: 'Cormorant';
+    font-weight: 400;
+    width: 100%;
+    line-height: 1.2em;
+    text-align: left;
+    max-width: 1240px;
+    margin: 0 auto;
+    color: dimgray;
+}
+
+.headings h4 {
+    height: 10%;
+    font-size: 2.4em;
+    font-family: 'Cormorant';
+    font-weight: 400;
+    width: 100%;
+    line-height: 1.2em;
+    text-align: left;
+    max-width: 1240px;
+    margin: 0 auto;
+    color: dimgray;
+}
+
+.headings h3 {
+    width: 100%;
+    font-weight: 300;
+    font-size: 1em;
+    animation: blink 1s infinite;
+    margin-bottom: 25px;
+}
+
+.headings p {
+    height: 10%;
+    font-size: 1.5em;
+    font-family: 'Roboto';
+    font-weight: 300;
+    width: 100%;
+    line-height: 1.2em;
+    text-align: left;
+    max-width: 1240px;
+    margin: 0 auto;
+    color: dimgray;
+}
+
+/* Scroll Down Animation */
+
+    @-webkit-keyframes blink {
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 0.6;
+            transform: translateY(5px);
+            color: darkred;
+        }
+
+        100% {
+            opacity: 0;
+            transform: translateY(-5px);
+        }
+    }
+
+    @-moz-keyframes blink {
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 0.6;
+            transform: translateY(5px);
+            color: darkred;
+        }
+
+        100% {
+            opacity: 0;
+            transform: translateY(-5px);
+        }
+    }
+
+    @-o-keyframes blink {
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 0.6;
+            transform: translateY(5px);
+            color: darkred;
+        }
+
+        100% {
+            opacity: 0;
+            transform: translateY(-5px);
+        }
+    }
+
+    @keyframes blink {
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 0.6;
+            transform: translateY(5px);
+            color: darkred;
+        }
+
+        100% {
+            opacity: 0;
+            transform: translateY(-5px);
+        }
+    }
+
+.desc {
+    max-width: 1240px;
+    min-width: 1240px;
+    margin: 0 auto;
+} 
+
+.desc h1 {
+    font-size: 2em;
+    font-weight: 300;
+}
+
+.footer {
+    max-width: 940px;
+    min-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+    text-align: center; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    color: darkgray;
+    padding: 0 10px 0 10px;
+}
+
+.artfooter {
+    max-width: 1240px;
+    min-width: 1240px;
+}
+
+.footer a {
+    color: darkgray;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.bwlogo {
+    width: 35px;
+    margin-top: 10px;
+    margin-right: 940px;
+}
+
+#logoshell {
+    background-color: #F5F5F5;
+}
+
+.sixcolumn {
+    display: flex;
+}
+
+.genericsmallnav {
+    width: 200px;
+    text-align: left;
+}
+
+.genericsmallul {
+    list-style: none;
+    margin-left: -40px;
+    font-size: 1em;
+    font-family: 'Roboto';
+}
+
+.genericsmallnav:last-child {
+    border-left: 1px solid lightgray;
+    padding-left: 30px;
+    margin-left: 0;
+}
+
+.genericsmallnav:last-child h3 {
+    color: darkred;
+}
+
+.genericsmallul li {
+    padding-bottom: 10px;
+}
+
+#endsmallnav {
+    margin-top: 130px;
+    color: dimgray;
+}
+
+.genericsmallul:not(#endsmallnav) a {
+    -webkit-transition: 0.18s;
+    -moz-transition: 0.18s;
+    -ms-transition: 0.18s;
+    transition: 0.18s;
+}
+
+.genericsmallul a:hover {
+    color: darkred;
+}
+
+.artbwlogo {
+    margin-right: 1240px;
+}
+
+.genericsmallnav:last-child {
+    margin-left: 300px;
+}

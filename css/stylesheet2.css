@@ -1,0 +1,223 @@
+body {
+    min-width: 1260px;
+}
+
+.shorthomelink{
+    margin-top: 40px;
+    height: auto;
+}
+
+#logo {
+    padding-top: 20px;
+    width: 200px;
+}
+
+.shortnav {
+    background-color: #9B0000;
+}
+
+.shortlogoshell {
+    height: 125px;
+    z-index: 2;
+    margin-top: -40px;
+}
+
+.shortnavigation {
+    max-width: 1240px;
+    min-width: 1240px;
+    background-color: darkred;
+}
+
+.shortnavigation a {
+    opacity: 0.8;
+    color: #fafafa;
+    transition: .18s;
+}
+
+.shortnavigation a:hover {
+    color: #DCDCDC;
+    opacity: 0.5;
+}
+
+.psunavigation {
+    position: relative;
+    list-style: none;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid darkgray;
+}
+
+.collapsetitle {
+    font-family:'Cormorant', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: black;
+    padding: 10px;
+    background-color: #F5F5F5;
+    z-index: 1;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(153,153,153,0.2);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(153,153,153,0.2);
+    box-shadow: 0px 2px 3px 0px rgba(153,153,153,0.2);
+}
+
+.content {
+    max-width: 1240px;
+    min-width: 1240px;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: 'Georgia','Cormorant';
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.content h5 {
+    color: darkred;
+    display: inline;
+}
+
+.secondary-datewrapper {
+    display: none;
+}
+
+.sectionheader {
+    font-family: 'Roboto' !important;
+    font-size: 1em;
+    font-weight: 300;
+    color: orange;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 5px 0 5px 0;
+    text-transform: uppercase;
+}
+
+.primary {
+    width: 600px;
+    padding: 10px;
+    padding-top: 5px;
+    padding-right: 0;
+    float: left;
+}
+
+.links {
+    max-width: 350px;
+    margin-top: 700px;
+    margin-left: 100px;
+    padding: 10px;
+    border-top: 1px gray solid;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links li {
+    height: 40px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 0.9em;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px lightgray solid;
+}
+
+.links li:first-child {
+    font-family: 'Roboto';
+    font-weight: 700;
+    margin-top: -20px;
+    margin-left: 0;
+    font-size: 0.85em;
+    padding: 0;
+    background-color: transparent;
+    border-bottom: none;
+    margin-bottom: -10px;
+}
+
+.title {
+    font-family: 'Cormorant';
+    font-size: 2.4em;
+    max-width: 1220px;
+    min-width: 1220px;
+    padding-bottom: 10px;
+    line-height: 1.10em;
+    border-bottom: 3px double lightgray;
+    margin-top: 0px;
+    font-weight: 700;
+}
+
+.chapel {
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+    margin-left: -40px;
+}
+
+.primary figcaption {
+    max-width: 600px;
+    min-width: 600px;
+    margin-left: -40px;
+    text-align: right;
+    font-size: 0.9em;
+    color: #585858;
+}
+
+.attribution {
+    font-family:'Cormorant';
+    max-width: 1220px;
+    min-width: 1220px;
+    font-weight: 700;
+    font-size: 0.90em;
+    color: #8C8C8C;
+    padding-bottom: 5px;
+    padding-right: 100px;
+    display: inline;
+}
+
+.authordate {
+    margin-top: -30px;
+    border-bottom: 1px solid lightgray;
+}
+
+.mainstory {
+    margin-left: 120px;
+    font-weight: 500;
+    line-height: 1.6em;
+}
+
+.mainstory hr {
+    width: 250px;
+    border-top: 1px solid lightgray;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+}
+
+.mainstory p:nth-last-child(2), .mainstory p:last-child {
+    padding-top: 15px;
+    color: #999;
+}
+
+.mainstory p:last-child {
+    border-top: none;
+    padding-top: 0px;
+}
+
+.artbwlogo {
+    margin-right: 1240px;
+}
+
+.artfooter {
+    max-width: 1240px;
+    min-width: 1240px;
+}
+
+.genericsmallnav:last-child {
+    margin-left: 300px;
+}
+

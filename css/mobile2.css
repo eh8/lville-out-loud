@@ -1,0 +1,331 @@
+body {
+    height: 100%;
+    background-color: #F5F5F5;
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+}
+
+.optionsshell {
+    display: none;
+}
+
+.languagewrapper {
+    display: none;
+}
+
+.sitewrapper {
+    min-width: 320px;
+    max-width: 736px;
+    margin: 0 auto;
+    background-color: #FAFAFA;
+}
+
+#logo {
+    display: none;
+}
+
+#mlogo {
+    display: block;
+    height: 50px;
+    margin: 0 auto;
+}
+
+#logoshell {
+    position: relative;
+    background-color: #a50000;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    z-index: 2;
+}
+
+.navigation {
+    display: none;
+}
+
+@media only screen and (min-width: 601px) {        
+    .psunavigation {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {  
+    .psunavigation {
+        position: relative;
+        list-style: none;
+        margin: 0 auto;
+        text-align: center;
+        overflow: hidden;
+    }
+}
+
+.collapse {
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    height: 60px;
+    z-index: 1;
+    width: 100%;
+}
+
+.collapsetitle {
+    font-family:'Cormorant', sans-serif;
+    font-weight: 400;
+    font-size: 0.95em;
+    color: black;
+    padding: 10px;
+    background-color: #F5F5F5;
+    opacity: 0.95;
+    z-index: 1;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(153,153,153,0.3);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(153,153,153,0.3);
+    box-shadow: 0px 2px 3px 0px rgba(153,153,153,0.3);
+}
+
+.content h1, .content h2, .content h3, .content h4, .content h5, .content p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Cormorant';
+}
+
+.content h1 {
+    position: relative;
+    display: block;
+    font-family: 'Roboto';
+    margin-bottom: 0px;
+    background-color: #FAFAFA;
+    z-index: 3;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.content h2 {
+    margin-top: 0px;
+    font-family: 'Roboto';
+    font-size: 0.8em;
+    font-weight: 300;
+    padding-right: 0px;
+}
+
+.content h5 {
+    margin-top: -5px;
+    font-family: 'Roboto';
+    font-size: 0.8em;
+    font-weight: 300;
+    color: darkred;
+}
+
+.content p, .content li {
+    font-weight: 400;
+    line-height: 1.4em;
+    font-size: 0.9em;
+    font-family: 'Georgia';
+}
+
+.secondary-datewrapper {
+    position: relative;
+    z-index: 4;
+    max-width: 100%;
+    margin: 0 auto;
+    list-style: none;
+    overflow: auto;
+    background-color: #870000;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.secondary-datewrapper li {
+    font-family: 'Roboto';
+    font-weight: 300;
+    text-transform: uppercase;
+    color: darkorange;
+    display: inline;
+    padding-left: 20px;
+    padding-right: 5px;
+    float: left;
+}
+
+.secondary-datewrapper li:first-child {
+    margin-left: -40px;
+}
+
+.secondary-datewrapper li:last-child {
+    border-right: none;
+    margin-right: 10px;
+    float: right;
+    padding: 0px 5px 0px 5px;
+}
+
+#signinmobile a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+    font-size: 0.8em;
+    background-color: #640000;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.links {
+    max-width: 550px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.links ul {
+    list-style: none; 
+    padding-left: 20px;
+}
+
+.links li:first-child {
+    font-family: 'Roboto';
+    font-weight: 700;
+    margin-top: -10px;
+    margin-left: 0;
+    font-size: 0.85em;
+    padding: 0;
+    background-color: transparent;
+    border-bottom: none;
+    margin-bottom: 0px;
+}
+
+.links li {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 0.9em;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px lightgray solid;
+}
+
+.links li:last-child {
+    border-bottom: none;
+}
+
+.links a {
+    color: black;
+    text-decoration: none;
+}
+
+.primary figure {
+    width: 100%;
+    display: block;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 0.9em;
+    color: black;
+    margin-left: 0px;
+    margin-top: -10px;
+}
+
+.primary img {
+    width: inherit;
+}
+
+.primary figcaption {
+    margin-left: 10px;
+}
+
+.mainstory hr {
+    width: 250px;
+    border-top: 1px solid lightgray;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+}
+
+.mainstory p:nth-last-child(2), .mainstory p:last-child {
+    padding-top: 15px;
+    color: #999;
+}
+
+.mainstory p:last-child {
+    border-top: none;
+    padding-top: 0px;
+}
+
+.footer {
+    min-width: 300px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+    text-align: center; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    color: darkgray;
+    padding: 0px 10px 0px 10px;
+}
+
+.footer a {
+    color: darkgray;
+    text-decoration: none;
+}
+
+.bwlogo {
+    width: 35px;
+}
+
+.sixcolumn {
+    display: flex;
+}
+
+.genericsmallnav {
+    width: 350px;
+    text-align: left;
+}
+
+.genericsmallul {
+    list-style: none;
+    margin-left: -40px;
+    font-size: 1em;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+
+.genericsmallnav:first-child {
+    display: none;
+}
+
+.genericsmallnav:nth-child(2) {
+    padding-right: 10px;
+}
+
+.genericsmallnav:nth-child(4) {
+    width: 100px;
+}
+
+.genericsmallnav:last-child {
+    border-left: 1px solid lightgray;
+    padding-left: 10px;
+    margin-left: 0;
+}
+
+.genericsmallnav:last-child h3 {
+    color: darkred;
+}
+
+.genericsmallul li {
+    padding-bottom: 10px;
+}
+
+#endsmallnav {
+    margin-top: 130px;
+    color: dimgray;
+}
+
+.genericsmallul:not(#endsmallnav) a {
+    -webkit-transition: 0.18s;
+    -moz-transition: 0.18s;
+    -ms-transition: 0.18s;
+    transition: 0.18s;
+}
+
+.genericsmallul a:hover {
+    color: darkred;
+}

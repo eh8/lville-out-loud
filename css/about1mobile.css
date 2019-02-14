@@ -1,0 +1,297 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    background-color: #F5F5F5; 
+    font-family: 'Roboto';
+}
+
+.sitewrapper {
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+}
+
+.optionsshell {
+    display: none;
+}
+
+.languagewrapper {
+    display: none;
+}
+
+.actualcontainer {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+#logo {
+    display: block;
+    height: 40px;
+    margin: 0 auto;
+}
+
+#logoshell {
+    position: relative;
+    background-color: #F5F5F5;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    z-index: 2;
+}
+
+.sitewrapper {
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+}
+
+.mastercontainer {
+    overflow: hidden;
+    color: white;
+    font-size: 0.9em;
+    font-weight: 300;
+    font-family: 'Roboto'; 
+    background: linear-gradient(150deg,#7D1919 20%,darkred 50%,#BA351A 94%);
+}
+
+.mastercontainer p {
+    line-height: 1.6em;
+    opacity: 0.8;
+}
+
+.mastercontainer p:first-child(2) {
+    font-size: 1.5em;
+}
+
+.mastercontainer a {
+    text-decoration: none;
+    color: white;
+    transition: 0.25s;
+}
+
+.mastercontainer a:hover {
+    color: #3ecf8e;
+}
+
+.headings {
+    text-align: center;
+    color: black;
+    background-color: #F5F5F5;
+    width: 100%;
+    margin: 0 auto;
+    height: 93vh;
+    padding-top: 20px;
+}
+
+
+.headings h1 {
+    width: 100%;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 1.7em;
+}
+
+.headings h2 {
+    font-size: 2.4em;
+    font-family: 'Cormorant';
+    font-weight: 400;
+    line-height: 1.2em;
+    text-align: left;
+    margin: 0 auto;
+    color: dimgray;
+    padding: 0px 10px 0px 10px;
+}
+
+.headings h3 {
+    font-weight: 300;
+    font-size: 1em;
+    margin-top: 150px;
+    animation: blink 1s infinite;
+    padding: 0px 10px 0px 10px;
+}
+
+.headings h4 {
+    font-size: 2.4em;
+    font-family: 'Cormorant';
+    font-weight: 400;
+    width: 100%;
+    line-height: 1.2em;
+    text-align: left;
+    max-width: 1240px;
+    margin: 0 auto;
+    color: dimgray;
+    padding: 0px 10px 40px 10px;
+}
+
+.headings p {
+    height: 30%;
+    font-size: 1em;
+    font-family: 'Roboto';
+    font-weight: 300;
+    line-height: 1.4em;
+    text-align: left;
+    margin: 0 auto;
+    color: dimgray;
+    padding: 0px 10px 0px 10px;
+}
+
+/* Scroll Down Animation */
+
+    @-webkit-keyframes blink {
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 0.6;
+            color: darkred;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+    @-moz-keyframes blink {
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 0.6;
+            color: darkred;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+    @-o-keyframes blink {
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 0.6;
+            color: darkred;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+    @keyframes blink {
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 0.6;
+            color: darkred;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+.desc {
+    padding: 0px 10px 0px 10px;
+    margin: 0 auto;
+} 
+
+.desc h1 {
+    font-size: 2em;
+    font-weight: 300;
+}
+
+.footer {
+    min-width: 300px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+    text-align: center; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    color: darkgray;
+    padding: 10px 10px 0px 10px;
+}
+
+.footer a {
+    color: darkgray;
+    text-decoration: none;
+}
+
+.bwlogo {
+    width: 35px;
+}
+
+.sixcolumn {
+    display: flex;
+}
+
+.genericsmallnav {
+    width: 350px;
+    text-align: left;
+}
+
+.genericsmallul {
+    list-style: none;
+    margin-left: -40px;
+    font-size: 1em;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+
+.genericsmallnav:first-child {
+    display: none;
+}
+
+.genericsmallnav:nth-child(2) {
+    padding-right: 10px;
+}
+
+.genericsmallnav:nth-child(4) {
+    width: 100px;
+}
+
+.genericsmallnav:last-child {
+    border-left: 1px solid lightgray;
+    padding-left: 10px;
+    margin-left: 0;
+}
+
+.genericsmallnav:last-child h3 {
+    color: darkred;
+}
+
+.genericsmallul li {
+    padding-bottom: 10px;
+}
+
+#endsmallnav {
+    margin-top: 130px;
+    color: dimgray;
+}
+
+.genericsmallul:not(#endsmallnav) a {
+    -webkit-transition: 0.18s;
+    -moz-transition: 0.18s;
+    -ms-transition: 0.18s;
+    transition: 0.18s;
+}
+
+.genericsmallul a:hover {
+    color: darkred;
+}

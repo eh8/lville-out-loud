@@ -1,0 +1,468 @@
+body {
+    height: 100%;
+    background-color: #F5F5F5;
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+}
+
+.optionsshell {
+    display: none;
+}
+
+.languagewrapper {
+    display: none;
+}
+
+.sitewrapper {
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+#logo {
+    display: none;
+}
+
+#mlogo {
+    display: block;
+    height: 50px;
+    margin: 0 auto;
+}
+
+#logoshell {
+    background-color: #a50000;
+    padding-top: 10px;
+}
+
+.content {
+    display: flex;
+    flex-flow: column;
+    margin-top: 20px;
+}
+
+.mainartincontainer {
+    order: 1;
+    display: flex;
+    flex-flow: column;
+    margin-top: -20px;
+}
+
+.desktop-mainprev {
+    display: none;
+}
+
+.mainprev {
+    position: relative;
+    color: white;
+    font-family: 'Roboto' !important;
+    text-align: left;
+    font-size: 0.8em !important;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0px;
+    padding-left: 20px;
+    height: 0;
+    line-height: 0em;
+    width: 13em;
+    border-top: 15px solid darkorange;
+    border-bottom: 15px solid darkorange;
+    border-right: 15px solid transparent;
+    margin: 0;
+}
+
+.first-mainprev {
+    margin-bottom: -50px;
+    z-index: 6;
+    margin-top: 0px;
+}
+
+.mainpic {
+    order: 1;
+}
+
+.leftmain {
+    order: 3;
+}
+
+.headline {
+    order: 2;
+    margin-top: 0px;
+}
+
+.submain {
+    order: 2;
+}
+
+.triart {
+    order: 3;
+}
+
+.content h1, .content h2, .content h3, .content h4, .content h5, .content p, .content li{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Cormorant';
+}
+
+.content h1, .content h3 {
+    font-family: 'Roboto';
+}
+
+.content hr {
+    width: 300px;
+    border-top: 1px solid lightgray;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.content h4 {
+    font-family: 'Roboto';
+    font-size: 0.8em;
+    font-weight: 300;
+    margin-top: -20px;
+}
+
+.content h5 {
+    font-family: 'Roboto';
+    font-size: 0.8em;
+    font-weight: 300;
+    color: darkred;
+    margin-top: -15px;
+}
+
+.content p, .content li {
+    font-size: 0.95em;
+    font-weight: 600;
+}
+
+.mainart figure, .mtriart figure {
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    display: block;
+    font-family: 'Cormorant';
+    font-weight: 300;
+    font-size: 1em;
+    color: dimgray;
+    margin-left: -0px;
+    margin-top: 10px;
+}
+
+.mainart img, .mtriart img {
+    width: inherit;
+}
+
+.mainart figcaption {
+    margin-left: 10px;
+}
+
+.content a {
+    text-decoration: none;
+    color: black;
+}
+
+.datewrapper {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    list-style: none;
+    font-weight: 300;
+    font-size: 0.8em;
+    color: white;
+    overflow: auto;
+    background-color: #870000;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.datewrapper li {
+    display: inline;
+    padding-left: 8px;
+    padding-right: 5px;
+    border-right: 1px solid lightgray;
+    float: left;
+}
+
+.datewrapper li:first-child {
+    margin-left: -40px;
+}
+
+.datewrapper li:nth-child(2) {
+    display: none;
+}
+
+.datewrapper li:nth-child(3) {
+    display: none;
+}
+
+.datewrapper li:nth-child(4) {
+    border-right: none;
+}
+
+.datewrapper li:last-child {
+    border-right: none;
+    font-size: 0.9em;
+    margin-right: 10px;
+    float: right;
+    padding: 0px 5px 0px 5px;
+}
+
+#signinmobile a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+    background-color: #640000;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.navigation {
+    display: none;
+}
+
+.previously {
+    display: none;
+}
+
+.lvilleheader {
+    color: dimgray;
+    font-family: 'Roboto' !important;
+    text-align: left;
+    font-size: 1.1em !important;
+    font-weight: 700;
+}
+
+.submain hr, .mainart hr, .mtriart hr {
+    display: none;
+}
+
+.mprev {
+    color: darkgray;
+    font-family: 'Roboto' !important;
+    text-align: center;
+    font-size: 0.9em;
+    width: 150px;
+    margin: 0 auto;
+    padding: 5px;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: -10px;
+}
+
+.thumbnail {
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+/* Stocks */
+    @media only screen and (max-width: 559px) {
+        .primarystockroll li:nth-child(even), .secondarystockroll li:nth-child(even) {
+            display: none;
+        }
+    }
+
+    .stockswrapper { 
+        color: dimgray;
+        font-family: 'Roboto';
+        position: relative;
+        height: 40px;
+        padding: 0;
+        margin-top: -13px;
+        margin-bottom: 25px;
+    }
+
+    .primarystockroll, .secondarystockroll {
+        position: absolute;
+        background-color: #E6E6E6;
+        width: 100%;
+        text-align: center; 
+        font-size: 0.8em;
+        font-weight: 300;
+	    padding-left: 0;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        box-shadow: 0 0 3px rgba(0,0,0,0.24);
+    }
+
+    .primarystockroll li, .secondarystockroll li {
+        display: inline;
+        padding-top: none;
+        padding-bottom: none;
+        padding-left: 5px;
+        padding-right: 5px;   
+    }
+
+    .primarystockroll {
+        -webkit-animation-name: roll1;
+        -webkit-animation-duration: 10s;
+        -webkit-animation-iteration-count: infinite;
+        -moz-animation-name: roll1;
+        -moz-animation-duration: 10s;
+        -moz-animation-iteration-count: infinite;
+        -o-animation-name: roll1;
+        -o-animation-duration: 10s;
+        -o-animation-iteration-count: infinite;
+        animation-name: roll1;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+
+    .secondarystockroll {
+        -webkit-animation-name: roll2;
+        -webkit-animation-duration: 10s;
+        -webkit-animation-iteration-count: infinite;
+        -moz-animation-name: roll2;
+        -moz-animation-duration: 10s;
+        -moz-animation-iteration-count: infinite;
+        -o-animation-name: roll2;
+        -o-animation-duration: 10s;
+        -o-animation-iteration-count: infinite;
+        animation-name: roll2;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+
+    @-webkit-keyframes roll1 {
+        0% { opacity: 0 }
+        5% { opacity: 1 }
+        40% { opacity: 1 }
+        45% { opacity: 0 }
+        100% { opacity: 0 }
+    }
+
+    @-moz-keyframes roll1 {
+        0% { opacity: 0 }
+        5% { opacity: 1 }
+        40% { opacity: 1 }
+        45% { opacity: 0 }
+        100% { opacity: 0 }
+    }
+
+    @-o-keyframes roll1 {
+        0% { opacity: 0 }
+        5% { opacity: 1 }
+        40% { opacity: 1 }
+        45% { opacity: 0 }
+        100% { opacity: 0 }
+    }
+
+    @keyframes roll1 {
+        0% { opacity: 0 }
+        5% { opacity: 1 }
+        40% { opacity: 1 }
+        45% { opacity: 0 }
+        100% { opacity: 0 }
+    }
+
+    @-webkit-keyframes roll2 {
+        0% { opacity: 0 }
+        40% { opacity: 0 }
+        45% { opacity: 1 }
+        95% { opacity: 1 }
+        100% { opacity: 0 }
+    }
+
+    @-moz-keyframes roll2 {
+        0% { opacity: 0 }
+        40% { opacity: 0 }
+        45% { opacity: 1 }
+        95% { opacity: 1 }
+        100% { opacity: 0 }
+    }
+
+    @-o-keyframes roll2 {
+        0% { opacity: 0 }
+        40% { opacity: 0 }
+        45% { opacity: 1 }
+        95% { opacity: 1 }
+        100% { opacity: 0 }
+    }
+
+    @keyframes roll2 {
+        0% { opacity: 0 }
+        40% { opacity: 0 }
+        45% { opacity: 1 }
+        95% { opacity: 1 }
+        100% { opacity: 0 }
+    }
+
+.footer {
+    min-width: 300px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+    text-align: center; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    color: darkgray;
+    padding: 10px 10px 0px 10px;
+}
+
+.footer a {
+    color: darkgray;
+    text-decoration: none;
+}
+
+.bwlogo {
+    width: 35px;
+}
+
+.sixcolumn {
+    display: flex;
+}
+
+.genericsmallnav {
+    width: 350px;
+    text-align: left;
+}
+
+.genericsmallul {
+    list-style: none;
+    margin-left: -40px;
+    font-size: 1em;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+
+.genericsmallnav:first-child {
+    display: none;
+}
+
+.genericsmallnav:nth-child(2) {
+    padding-right: 10px;
+}
+
+.genericsmallnav:nth-child(4) {
+    width: 100px;
+}
+
+.genericsmallnav:last-child {
+    border-left: 1px solid lightgray;
+    padding-left: 10px;
+    margin-left: 0;
+}
+
+.genericsmallnav:last-child h3 {
+    color: darkred;
+}
+
+.genericsmallul li {
+    padding-bottom: 10px;
+}
+
+#endsmallnav {
+    margin-top: 130px;
+    color: dimgray;
+}
+
+.genericsmallul:not(#endsmallnav) a {
+    -webkit-transition: 0.18s;
+    -moz-transition: 0.18s;
+    -ms-transition: 0.18s;
+    transition: 0.18s;
+}
+
+.genericsmallul a:hover {
+    color: darkred;
+}
